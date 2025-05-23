@@ -1,0 +1,33 @@
+preceding >>smorchi aajji >>no common parents 
+ancestor >> father's father
+parent 
+you
+child
+descedant >>child's child  
+attribute >> give available attribute name
+
+following >> 1.Following  
+	     2. Following Siblings
+
+e.g. i.aapli mul   ii. bahinichi mul    iii. maitrinichi mul
+
+folling>>           ii. bahinichi mul    iii. maitrinichi mul
+following-sibling >>i.aapli mul   ii. bahinichi mul    
+preceding-sibling >>motha bhau
+
+
+Questions
+1. Find receding-sibling of //div[@class="comments"]
+>>  //div[@class="comments"]/preceding-sibling::div
+
+2. find ancestor of post hentry
+>>  //div[@class="post hentry"]/ancestor::div
+
+3. find preceding of post hentry
+>> //div[@class="post hentry"]/preceding::div
+
+4.find following-sibling of post hentry
+>> //div[@class="post hentry"]/following-sibling::div
+
+5. fing using attribute 
+>> //div[@class="blog-pager"]/attribute::id

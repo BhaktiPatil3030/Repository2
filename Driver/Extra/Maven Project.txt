@@ -1,0 +1,47 @@
+Maven Project
+
+
+
+
+
+1] To create extent report we need to add 2 dependencies in pom.xml and run pom.xml 
+in pom.xml file we add configuration of testng.xml add run.
+i.aventstack -5.1.2
+ii.relevantcodes extentreports- 2.41.2
+Add Listener class in Listener package (Standard format)
+Add listener in testing.xml file
+Please refresh your project to see reports
+
+2]add plugin
+we can add multiple xml in pom.xml for that add plugin
+i. create tag in pom.xml 
+  <build>
+  <pluginManagement>
+  <plugins> 
+ 	 <add 2 plugins> 
+  <plugins> 
+  <pluginManagement>
+  <build>
+
+ii. add surefire plugin
+   search Maven Surefire Plugin>>maven plugin>>usage>>select plugin
+iii. add surefire plugin
+   search Maven Surefire Plugin>>maven plugin>>using TestNG>>Using Suite XML Files>> copy plugin
+
+we can run project in 2 ways
+1. run in eclips
+   clean  compile  test  install
+
+2. run in cmd promt
+    mvn clean      mvn compile    mvn test     mvn install
+
+
+In pom.xml we add 
+2 dependencies
+2 plugin
+configuration of xml file
+
+how to run maven project
+1. Right click on project>>run as >>
+2. pom.xml
+3.

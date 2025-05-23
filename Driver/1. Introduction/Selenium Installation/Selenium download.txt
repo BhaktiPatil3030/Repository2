@@ -1,0 +1,3 @@
+Selenium download
+1.create java project name= selenium project
+2.search - selenium jars - select selenium.dev - 
